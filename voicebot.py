@@ -62,7 +62,7 @@ def get_response(text):
     if "hello" in text or "hi" in text:
         return "Hello farmer, how can I help you today?"
     if "stop" in text:
-    return "Okay, stopping for now."
+        return "Okay, stopping for now."
 
     return "Sorry, I did not understand."
 
